@@ -21,9 +21,6 @@ export default function validateInfo(values) {
     errors.street = "street is required";
    } 
 
-  if (!values.city) {
-    errors.city = "city is required";
-  } 
 
    if (!values.city) {
      errors.city = "city is required";

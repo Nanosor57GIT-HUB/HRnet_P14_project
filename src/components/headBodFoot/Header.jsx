@@ -4,6 +4,13 @@ import Modal2 from "../employee/Modal2";
 import { useState } from "react";
 
 
+/**
+ * @name Header
+ * @description create header component with a logo and 2 links of navigation 
+ * @returns {JSX.Element}
+ *
+ */
+
 const Header = () => {
  const [modalState, setModalState] = useState(false);
   const [modalState2, setModalState2] = useState(false);

@@ -3,6 +3,13 @@ import styled from "styled-components";
 import Cancel from "./assets/images/cancel.png";
 import Check from "./assets/images/check.png";
 
+/**
+ * @name ModalConfirm
+ * @description creation of a data sending confirmation mode
+ * @returns {JSX.Element}
+ *
+ */
+
 const ModalConfirm = ({
   showModal,
   setShowModal,

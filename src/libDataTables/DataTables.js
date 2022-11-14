@@ -5,6 +5,7 @@ import DataTableFooter from "./DataTableFooter";
 import DataTableHead from "./DataTableHead";
 import DataTableSearch from "./DataTableSearch";
 
+
 import "./style.css";
 
 export const UserContext = React.createContext();
@@ -21,6 +22,8 @@ function DataTables({ label, data }) {
   //control the .map() with slice
   const sliceBegin = indexPages * showEntries - showEntries;
   const sliceEnd = indexPages * showEntries;
+
+
 
   return (
     <UserContext.Provider

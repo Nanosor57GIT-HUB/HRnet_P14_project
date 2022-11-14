@@ -3,10 +3,17 @@ import DataTables from "./../../libDataTables/DataTables";
 import PropsExample from "./PropsExample";
 import DataUser from "./DataUser";
 
+/**
+ * @name Modal
+ * @description creation of a modal intended to host the datatables
+ * @returns {JSX.Element}
+ *
+ */
+
+//Modal datatables
 const Modal2 = (props) => {
-
+//Management open/close
 const toggle2 = props.toggle2
-
 const action2 = props.action2
 
     return (

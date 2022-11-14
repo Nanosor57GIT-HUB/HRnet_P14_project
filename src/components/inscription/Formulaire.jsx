@@ -11,6 +11,12 @@ import Select from "react-select";
 import ModalConfirm from "../confirmInscription/ModalConfirm";
 
 
+/**
+ * @name Form
+ * @description creation of a form to generate information about the table
+ * @returns {JSX.Element}
+ */
+
 const Formulaire = () => {
   //custom react-select
   const customStyles = {
@@ -76,6 +82,7 @@ const Formulaire = () => {
   // select department management
   const [selectedDpt, setSelectedDpt] = useState();
 
+  //openModalConfirm
   const openModal = () => {
     setShowModal((prev) => !prev);
   };
@@ -127,7 +134,7 @@ const Formulaire = () => {
   };
 
   //handle submit form
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e)  => {
     e.preventDefault();
     setErrors(validateInfo(formValues));
     setIsSubmit(true);

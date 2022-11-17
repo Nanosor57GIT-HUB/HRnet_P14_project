@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import ModalConfirm from "../confirmInscription/ModalConfirm";
+
 
 /**
  * @name Header
@@ -30,10 +32,13 @@ const Header = () => {
         <h1>Health-Wealth</h1>
       </div>
       <div className="header-nav">
+        
+
         <Link to="/employeesList" className="toggleModal nav-link">
           Employee List
         </Link>
       </div>
+      <ModalConfirm toggle={modalState} action={openModal} />
     </div>
   );
 };

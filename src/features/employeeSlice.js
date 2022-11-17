@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import dataUser from "../components/employee/DataUser";
+import dataUser from "../mocksData/DataUser";
 
 //start array employee array with mock data
 const initialState = {

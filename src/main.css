@@ -1,15 +1,19 @@
-
+*{
+    box-sizing: border-box;
+}
 body {
   height: 97vh;
 }
+
 .header-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 ;
   align-items: center;
-  width: 99%;
+  width: 100%;
+  height: 10vh;
 }
 
 .societe {
@@ -48,10 +52,18 @@ body {
   }
 }
 
-.logo {
+.bgBody {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center; 
+  width: 100%;
+}
+
+.logoBG {
   display: flex;
   width: 30%;
-  margin: 0 auto;
+ 
   height: 80vh;
   line-height: 80vh;
 }
@@ -64,7 +76,8 @@ body {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: 200px;
+  margin-right: 20px;
 }
 @media (max-width: 808px) {
   .header-nav {
@@ -73,7 +86,7 @@ body {
   }
 }
 
-button {
+.nav-link {
   text-decoration: none;
   border: none;
   background: none;
@@ -83,20 +96,29 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.nav-link:hover {
   color: #5a6f0a;
   text-decoration: underline;
 }
 
+.body {
+ 
+  width: 100%;
+  min-height: 50vh;
+}
+
 .bgBody {
   width: 100%;
-  height: 78vh;
+  height: 75vh;
   background-color: #00353f;
+  
 }
 
 .container-footer {
   display: flex;
   width: 100%;
+  height: 10vh;
+ margin: 0;
 }
 .copyright {
   display: flex;
@@ -128,32 +150,14 @@ button:hover {
   transform: scale(0.3);
   transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
 }
-.container-modal2 {
- position: absolute; 
-  display: flex;
-  width: 100%;
-  min-height: 97vh;
-  top: 0;
-  left: 0;
-  padding: 5px 0;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  visibility: hidden;
-  opacity: 0;
-  transform: scale(0.3);
-  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
-}
+
 .container-modal.active {
   visibility: visible;
   opacity: 1;
   transform: scale(1);
 }
-.container-modal2.active {
-  visibility: visible;
-  opacity: 1;
-  transform: scale(1);
-}
+
+
 
 .modal {
   position: relative;
@@ -169,17 +173,13 @@ button:hover {
  box-shadow: 0px 0px 5px #93ad18;
 }
 
-.modal2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 99%;
-  height: 100%;
-  margin-top: 25px;
-  background-color: #6d840d;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px 1px #93ad18;
+.close {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin-right: 35px;
+  color: #93ad18;
+  font-size: 1rem;
 }
 
 .closeModal {
@@ -188,7 +188,7 @@ button:hover {
   right: 10px;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.6;
+  opacity: 0.7;
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -198,14 +198,21 @@ button:hover {
 }
 
 /*form*/
-
+.formFlex {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  height: 570px;
+ 
+}
 .container-form {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  min-width: 465px;
   width: 465px;
-  margin-top: 5px;
+  width: 465px;
+  
 }
 
 form {
@@ -223,7 +230,7 @@ input {
 }
 
 label {
-  color: #6d840d;
+  color: #93ad18;
   font-weight: 400;
 }
 
@@ -234,7 +241,7 @@ legend {
   border: 2px solid #93ad18;
   border-radius: 25px;
   padding: 0 7px;
-  color: #6d840d;
+  color: #93ad18;
   font-weight: 400;
 }
 .address {

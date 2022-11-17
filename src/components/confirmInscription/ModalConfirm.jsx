@@ -32,6 +32,7 @@ const ModalConfirm = ({
               background: colorModal,
               boxShadow: shadowModal,
               borderRadius: borderModal,
+              zIndex: "50"
             }}
           >
             <ModalContent>

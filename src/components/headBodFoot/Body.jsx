@@ -1,12 +1,17 @@
+//import { Modal } from "hrnet_component_plugin_modal";
+
 import React from "react";
-import Modal from "../inscription/Modal";
+import Form from "../form/Form";
+
 
 const Body = () => {
   return (
-    <div>
+    <div className="body">
+      <Form />
+     
       <div className="bgBody">
-        <img className="logo" src="../images/logo.svg" alt="logo" />
-        <Modal />
+        <img className="logoBG" src="../images/logoBG.svg" alt="logo" />
+        <img className="logoBG" src="../images/logoBG.svg" alt="logo" />
       </div>
     </div>
   );

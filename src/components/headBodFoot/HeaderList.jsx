@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Modal from "hrnet_component_plugin_modal/dist/component/Modal"
+
 
 /**
  * @name Header
@@ -30,10 +32,13 @@ const Header = () => {
         <h1>Health-Wealth</h1>
       </div>
       <div className="header-nav">
-        <Link to="/employeesList" className="toggleModal nav-link">
-          Employee List
+        <Link to="/" className="toggleModal nav-link" onClick={openModal}>
+          Create Employee
         </Link>
+
+        
       </div>
+      <Modal toggle={modalState} action={openModal} />
     </div>
   );
 };

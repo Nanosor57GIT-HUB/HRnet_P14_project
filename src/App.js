@@ -1,16 +1,18 @@
-import { createContext } from 'react';
-import './main.css';
-import Home from './pages/Home';
+import "./main.css";
+import Home from "./pages/Home";
+import EmployeesList from "./pages/EmployeesList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-export const NameContext = createContext()
-
-function App(form1) {
+function App() {
   return (
-    <div className="App">
-      <NameContext.Provider value={form1}>
-      <Home />
-      </NameContext.Provider>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/EmployeesList" element={<EmployeesList />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

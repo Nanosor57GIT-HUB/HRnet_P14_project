@@ -204,7 +204,7 @@ body {
   justify-content: center;
   width: 99%;
   height: 570px;
- 
+
 }
 .container-form {
   display: flex;
@@ -300,4 +300,6 @@ width: 170px;
   width: 80%;
 }
 
-
+button {
+  z-index: 50;
+}

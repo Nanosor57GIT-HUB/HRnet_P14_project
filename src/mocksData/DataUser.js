@@ -1,6 +1,6 @@
 const dataUser = [
   {
-  //  id: 1,
+    //  id: 1,
     firstName: "John",
     lastName: "Doe",
     startDate: "04/14/2021",
@@ -12,7 +12,7 @@ const dataUser = [
     zipCode: "01800",
   },
   {
-  //  id: 2,
+    //  id: 2,
     firstName: "Elisa",
     lastName: "Tyrel",
     startDate: "03/02/2020",
@@ -24,7 +24,7 @@ const dataUser = [
     zipCode: "85699",
   },
   {
-  //  id: 3,
+    //  id: 3,
     firstName: "Roland",
     lastName: "Smith",
     startDate: "12/20/2020",
@@ -36,7 +36,7 @@ const dataUser = [
     zipCode: "78965",
   },
   {
-   // id: 4,
+    // id: 4,
     firstName: "Laetitia",
     lastName: "Menirel",
     startDate: "11/03/2014",
@@ -48,7 +48,7 @@ const dataUser = [
     zipCode: "87120",
   },
   {
-  //  id: 5,
+    //  id: 5,
     firstName: "Kristen",
     lastName: "Bird",
     startDate: "09/20/2012",
@@ -60,7 +60,7 @@ const dataUser = [
     zipCode: "20369",
   },
   {
-  //  id: 6,
+    //  id: 6,
     firstName: "Nico",
     lastName: "Smith",
     startDate: "02/02/2017",
@@ -72,7 +72,7 @@ const dataUser = [
     zipCode: "36124",
   },
   {
-  //  id: 7,
+    //  id: 7,
     firstName: "Lea",
     lastName: "Regan",
     startDate: "10/08/2015",
@@ -84,7 +84,7 @@ const dataUser = [
     zipCode: "79582",
   },
   {
-   // id: 8,
+    // id: 8,
     firstName: "Tim",
     lastName: "Legol",
     startDate: "02/13/2021",
@@ -96,7 +96,7 @@ const dataUser = [
     zipCode: "25001",
   },
   {
-   // id: 9,
+    // id: 9,
     firstName: "Celia",
     lastName: "Hugh",
     startDate: "04/14/2021",
@@ -108,7 +108,7 @@ const dataUser = [
     zipCode: "97312",
   },
   {
-   // id: 10,
+    // id: 10,
     firstName: "Celia",
     lastName: "Hugh",
     startDate: "04/14/2021",
@@ -120,7 +120,7 @@ const dataUser = [
     zipCode: "97312",
   },
   {
-   // id: 11,
+    // id: 11,
     firstName: "John",
     lastName: "Doe",
     startDate: "04/14/2021",
@@ -132,7 +132,7 @@ const dataUser = [
     zipCode: "01800",
   },
   {
-  //  id: 12,
+    //  id: 12,
     firstName: "Elisa",
     lastName: "Tyrel",
     startDate: "03/02/2020",
@@ -144,7 +144,7 @@ const dataUser = [
     zipCode: "85699",
   },
   {
-  //  id: 13,
+    //  id: 13,
     firstName: "Roland",
     lastName: "Smith",
     startDate: "12/20/2020",
@@ -156,7 +156,7 @@ const dataUser = [
     zipCode: "78965",
   },
   {
-   // id: 14,
+    // id: 14,
     firstName: "Laetitia",
     lastName: "Menirel",
     startDate: "11/03/2014",
@@ -168,7 +168,7 @@ const dataUser = [
     zipCode: "87120",
   },
   {
-  //  id: 15,
+    //  id: 15,
     firstName: "Roman",
     lastName: "Pelio",
     startDate: "01/28/2018",
@@ -180,7 +180,7 @@ const dataUser = [
     zipCode: "99852",
   },
   {
-  //  id: 16,
+    //  id: 16,
     firstName: "Kristen",
     lastName: "Bird",
     startDate: "09/20/2012",
@@ -192,7 +192,7 @@ const dataUser = [
     zipCode: "20369",
   },
   {
-  //  id: 17,
+    //  id: 17,
     firstName: "Nico",
     lastName: "Smith",
     startDate: "02/02/2017",
@@ -204,7 +204,7 @@ const dataUser = [
     zipCode: "36124",
   },
   {
-  //  id: 18,
+    //  id: 18,
     firstName: "Lea",
     lastName: "Regan",
     startDate: "10/08/2015",
@@ -216,7 +216,7 @@ const dataUser = [
     zipCode: "79582",
   },
   {
-   // id: 19,
+    // id: 19,
     firstName: "Tim",
     lastName: "Legol",
     startDate: "02/13/2021",
@@ -228,7 +228,7 @@ const dataUser = [
     zipCode: "25001",
   },
   {
-   // id: 20,
+    // id: 20,
     firstName: "Celia",
     lastName: "Hugh",
     startDate: "04/14/2021",
@@ -240,7 +240,7 @@ const dataUser = [
     zipCode: "97312",
   },
   {
-  //  id: 21,
+    //  id: 21,
     firstName: "John",
     lastName: "Doe",
     startDate: "04/14/2021",
@@ -252,7 +252,7 @@ const dataUser = [
     zipCode: "01800",
   },
   {
-   // id: 22,
+    // id: 22,
     firstName: "Elisa",
     lastName: "Tyrel",
     startDate: "03/02/2020",
@@ -265,7 +265,7 @@ const dataUser = [
   },
 
   {
-   // id: 23,
+    // id: 23,
     firstName: "Nico",
     lastName: "Smith",
     startDate: "02/02/2017",
@@ -277,7 +277,7 @@ const dataUser = [
     zipCode: "36124",
   },
   {
-   // id: 24,
+    // id: 24,
     firstName: "Elisa",
     lastName: "Tyrel",
     startDate: "03/02/2020",
@@ -289,7 +289,7 @@ const dataUser = [
     zipCode: "85699",
   },
   {
-   // id: 25,
+    // id: 25,
     firstName: "Roland",
     lastName: "Smith",
     startDate: "12/20/2020",
@@ -301,7 +301,7 @@ const dataUser = [
     zipCode: "78965",
   },
   {
-  //  id: 26,
+    //  id: 26,
     firstName: "Laetitia",
     lastName: "Menirel",
     startDate: "11/03/2014",
@@ -313,7 +313,7 @@ const dataUser = [
     zipCode: "87120",
   },
   {
-   // id: 27,
+    // id: 27,
     firstName: "Roman",
     lastName: "Pelio",
     startDate: "01/28/2018",
@@ -325,7 +325,7 @@ const dataUser = [
     zipCode: "99852",
   },
   {
-   // id: 28,
+    // id: 28,
     firstName: "Kristen",
     lastName: "Bird",
     startDate: "09/20/2012",
@@ -337,7 +337,7 @@ const dataUser = [
     zipCode: "20369",
   },
   {
-   // id: 29,
+    // id: 29,
     firstName: "Nico",
     lastName: "Smith",
     startDate: "02/02/2017",
@@ -349,7 +349,7 @@ const dataUser = [
     zipCode: "36124",
   },
   {
-   // id: 30,
+    // id: 30,
     firstName: "Lea",
     lastName: "Regan",
     startDate: "10/08/2015",
@@ -361,7 +361,7 @@ const dataUser = [
     zipCode: "79582",
   },
   {
-   // id: 31,
+    // id: 31,
     firstName: "Tim",
     lastName: "Legol",
     startDate: "02/13/2021",
@@ -373,7 +373,7 @@ const dataUser = [
     zipCode: "25001",
   },
   {
-   // id: 32,
+    // id: 32,
     firstName: "Celia",
     lastName: "Hugh",
     startDate: "04/14/2021",
@@ -385,7 +385,7 @@ const dataUser = [
     zipCode: "97312",
   },
   {
-   // id: 33,
+    // id: 33,
     firstName: "Roman",
     lastName: "Pelio",
     startDate: "01/28/2018",
@@ -398,4 +398,4 @@ const dataUser = [
   },
 ];
 
-export default dataUser
+export default dataUser;

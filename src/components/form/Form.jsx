@@ -5,10 +5,10 @@ import { statesList, departmentsList } from "../../mocksData/DataSelect";
 import { useSelector, useDispatch } from "react-redux";
 import ReactDatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import validateInfo from "../validateForm/validateInfoForm";
+import validateInfo from "../../validateForm/validateInfoForm";
 import moment from "moment/moment";
 import Select from "react-select";
-import ModalConfirm from "../confirmInscription/ModalConfirm";
+import { Modal } from "hrnet_component_plugin_modal";
 
 /**
  * @name Form
@@ -72,7 +72,7 @@ const Form = () => {
   const [errors, setErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
   //modalConfirm
-  const [showModal, setShowModal] = useState(false);
+  const [modalState, setModalState] = useState(false);
   // select state management
   const [selectedState, setSelectedState] = useState();
   //dateOfBirth
@@ -82,10 +82,9 @@ const Form = () => {
   // select department management
   const [selectedDpt, setSelectedDpt] = useState();
 
-  //openModalConfirm
-  const openModal = () => {
-    setShowModal((prev) => !prev);
-  };
+  function openModal() {
+    setModalState(!modalState);
+  }
 
   // Disable deprecated return to Date constructor
   const birthday = (data) => {
@@ -140,8 +139,6 @@ const Form = () => {
     setIsSubmit(true);
   };
 
-  
-
   useEffect(() => {
     if (Object.keys(errors).length === 0 && isSubmit) {
       openModal();
@@ -161,21 +158,7 @@ const Form = () => {
 
   return (
     <div>
-      {Object.keys(errors).length === 0 && isSubmit && (
-        <ModalConfirm
-          showModal={showModal}
-          setShowModal={setShowModal}
-          //your custom parameters here
-          backgroundColor="#00353f"
-          colorModal="#93ad18"
-          iconModal="success"
-          borderModal="20px"
-          content="Employee created!"
-          contentcolor="black"
-          shadowModal="0 5px 12px rgba(18, 39, 3, .5)"
-          fontSizeModal="1.5rem"
-        />
-      )}
+      <Modal toggle={modalState} action={openModal} />
 
       <div className="formFlex">
         <div className="container-form">
@@ -320,6 +303,7 @@ const Form = () => {
           </form>
         </div>
       </div>
+      <Modal toggle={modalState} action={openModal} />
     </div>
   );
 };

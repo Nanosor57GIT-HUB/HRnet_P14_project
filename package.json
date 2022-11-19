@@ -8,10 +8,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "babel-core": "^6.26.3",
-    "hrnet_component_plugin_modal": "^1.2.9",
+    "hrnet_component_plugin_modal": "^1.4.5",
     "moment": "^2.29.4",
     "plugin-datatable": "^0.1.6",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
@@ -19,11 +18,8 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-select": "^5.6.0",
-    "redux-persist": "^6.0.0",
-    "redux-root-reducer": "0.0.6",
     "sass": "^1.55.0",
     "serve": "^14.1.1",
-    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
